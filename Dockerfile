@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @airworksbeyond
+# Subscribe YouTube Channel For Amazing Bot @airworksbeyond
+# Ask Doubt on telegram @airworksbeyond
 
 FROM python:3.10.8-slim-buster
 
