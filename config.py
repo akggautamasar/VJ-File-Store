@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @airworksbeyond
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@airhabitsandskills?si=fldi1ChyljXbpFU5
+# Ask Doubt on telegram @airworksbeyond
 
 
 import re
@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "26182818"))
 API_HASH = environ.get("API_HASH", "e98cc55fabed0fce53269188fa3a0e63")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/zV2.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/44cb9cd9617551b729189-dd13a291c46458d6a3.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2127437034').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Airfilesstorerobot") # without @
 PORT = environ.get("PORT", "8080")
@@ -83,7 +83,7 @@ else:
 URL = environ.get("URL", "")
 
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @airworksbeyond
+# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@airhabitsandskills?si=fldi1ChyljXbpFU5
+# Ask Doubt on telegram @airworksbeyond
     
