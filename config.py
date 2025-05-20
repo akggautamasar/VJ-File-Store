@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "26182818"))
-API_HASH = environ.get("API_HASH", "e98cc55fabed0fce53269188fa3a0e63")
+API_ID = int(environ.get("API_ID", "22649259"))
+API_HASH = environ.get("API_HASH", "545169590ffbfe0bf8bade55e3a1cfde")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/44cb9cd9617551b729189-dd13a291c46458d6a3.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2127437034').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Airfilesstorerobot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Worksbeyondbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
