@@ -32,11 +32,11 @@ CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://worksbeyondworks:7R3nbeRp2rcdSwSN@cluster0.wa6dc3p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("CDB_NAME", "cloneairstorerobot")
+CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://worksbeyondworks:HGaTdcnbE4a6slrl@cluster0.ivambvm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "airstorerobot")
+DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://airstorerobot.blogspot.com/2025/04/redirecting-to-your-link-code-credit.html") # For More Information Check Video On Yt - @Tech_VJ
