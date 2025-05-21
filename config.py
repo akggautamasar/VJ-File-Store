@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "545169590ffbfe0bf8bade55e3a1cfde")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/44cb9cd9617551b729189-dd13a291c46458d6a3.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2127437034').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6221765779').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Worksbeyondbot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -31,11 +31,11 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://worksbeyondworks:7R3nbeRp2rcdSwSN@cluster0.wa6dc3p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://airslowedreverb:Akgs@6279@cluster0.rnoxprd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://worksbeyondworks:HGaTdcnbE4a6slrl@cluster0.ivambvm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://airslowedreverb:Akgs@cluster0.sqr2vwm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
